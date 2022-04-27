@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Personal TV REMOTE </string>
+    <string name="TVPowerstr">TVPower</string>
+    <string name="SBPowerStr">SBPower</string>
+    <string name="b1str">1</string>
+    <string name="b2str">2</string>
+    <string name="b3str">3</string>
+    <string name="b4str">4</string>
+    <string name="b5str">5</string>
+    <string name="b6str">6</string>
+    <string name="b7str">7</string>
+    <string name="b8str">8</string>
+    <string name="b9str">9</string>
+    <string name="b0str">0</string>
+    <string name="TvMutestr">TVMUTE</string>
+    <string name="SBMutestr">SBMUTE</string>
+    <string name="TVVupstr">TVVUP</string>
+    <string name="TVVdownstr">TVVDOWN</string>
+    <string name="SBVupstr">SBVUP</string>
+    <string name="SBVdownstr">SBVDOWN</string>
+    <string name="TVupstr">▲</string>
+    <string name="TVdownstr">▼</string>
+    <string name="TVrightstr">►</string>
+    <string name="TVleftstr">◄</string>
+    <string name="TVokstr">OK</string>
+    <string name="TVbackstr">Back</string>
+    <string name="TVexitstr">EXIT</string>
+    <string name="TVinputstr">INPUT</string>
+    <string name="TVsettingsstr">Setting</string>
+    <string name="HoldBtnStr">HOLD</string>
+
+    <string name="blankButton">Null</string>
+</resources>

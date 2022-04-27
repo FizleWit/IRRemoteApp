@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/TVPowerBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:onClick="tvPowerBtnClick"
+                android:background="@drawable/redbutton"
+                app:srcCompat="@android:drawable/ic_lock_power_off" />
+
+            <Switch
+                android:id="@+id/HoldSwitch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:text="@string/HoldBtnStr"
+                />
+
+            <ImageButton
+                android:id="@+id/SBPowerBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:onClick="sbPowerBtnClick"
+                android:background="@drawable/redbutton"
+
+                app:srcCompat="@android:drawable/ic_lock_power_off" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b1Btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/numberview"
+                android:onClick="b1BtnClick"
+                android:text="@string/b1str"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/b2Btn"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/numberview"
+                android:onClick="b2BtnClick"
+
+                android:text="@string/b2str"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/b3Btn"
+                android:layout_width="0dp"
+
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/numberview"
+                android:onClick="b3BtnClick"
+
+                android:text="@string/b3str"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b4Btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/numberview"
+                android:onClick="b4BtnClick"
+
+
+                android:text="@string/b4str"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/b5Btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/numberview"
+                android:onClick="b5BtnClick"
+
+                android:text="@string/b5str"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/b6Btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/numberview"
+                android:onClick="b6BtnClick"
+
+                android:text="@string/b6str"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b7Btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/numberview"
+                android:onClick="b7BtnClick"
+
+                android:text="@string/b7str"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/b8Btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/numberview"
+                android:onClick="b8BtnClick"
+
+                android:text="@string/b8str"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/b9Btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/numberview"
+                android:onClick="b9BtnClick"
+
+                android:text="@string/b9str"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/tvSettingsBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/toolbtn"
+                android:onClick="tvSettingsBtnClick"
+
+                android:text="@string/TVsettingsstr"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/b0Btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/numberview"
+                android:onClick="b0BtnClick"
+
+                android:text="@string/b0str"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/tvInputBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/toolbtn"
+                android:onClick="tvInputBtnClick"
+
+
+                android:text="@string/TVinputstr"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/tvVupBtn"
+                android:layout_width="30dp"
+                android:layout_height="72dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:onClick="tvVupBtnClick"
+
+                app:srcCompat="@android:drawable/arrow_up_float" />
+
+            <Button
+                android:id="@+id/tvMuteBtn"
+                android:layout_width="0dp"
+                android:layout_height="72dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/toolbtn2"
+                android:onClick="tvMuteBtnClick"
+
+                android:text="@string/TvMutestr"
+                android:textColor="#FFFFFF" />
+
+            <ImageButton
+                android:id="@+id/sbVupBtn"
+                android:layout_width="30dp"
+                android:layout_height="72dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:onClick="sbVupBtnClick"
+
+                app:srcCompat="@android:drawable/arrow_up_float" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/tvVdownBtn"
+                android:layout_width="30dp"
+                android:layout_height="72dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:onClick="tvVdownBtnClick"
+
+                app:srcCompat="@android:drawable/arrow_down_float" />
+
+            <Button
+                android:id="@+id/sbMuteBtn"
+                android:layout_width="0dp"
+                android:layout_height="72dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/toolbtn2"
+                android:onClick="sbMuteBtnClick"
+                android:text="@string/SBMutestr"
+                android:textColor="#FFFFFF" />
+
+            <ImageButton
+                android:id="@+id/sbVdownBtn"
+                android:layout_width="30dp"
+                android:layout_height="72dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:onClick="sbVdownBtnClick"
+
+                app:srcCompat="@android:drawable/arrow_down_float" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/tvBackBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/toolbtn"
+                android:onClick="tvBackBtnClick"
+
+
+                android:text="@string/TVbackstr"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/tvUpBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/greenarrow"
+                android:onClick="tvUpBtnClick"
+
+
+                android:text="@string/TVupstr"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/tvExitBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/toolbtn"
+                android:onClick="tvExitBtnClick"
+
+
+                android:text="@string/TVexitstr"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/tvLeftBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/greenarrow"
+
+                android:onClick="tvLeftBtnClick"
+                android:text="@string/TVleftstr"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/tvOkBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+
+                android:background="@drawable/redbutton"
+
+                android:onClick="tvOkBtnClick"
+
+                android:text="@string/TVokstr"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/tvRightBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/greenarrow"
+
+                android:onClick="tvRightBtnClick"
+                android:text="@string/TVrightstr"
+
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button41"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/toolbtn"
+                android:text="@string/blankButton"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/tvDownBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/greenarrow"
+
+                android:onClick="tvDownBtnClick"
+
+                android:text="@string/TVdownstr"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button45"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/toolbtn"
+                android:text="@string/blankButton"
+                android:textStyle="bold" />
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
